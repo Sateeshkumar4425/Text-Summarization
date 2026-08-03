@@ -9,12 +9,16 @@ text_summary = pipeline(
 )
 
 def summarize(text):
+    if not text.strip():
+        return "Please enter some text to summarize."
+
     result = text_summary(
         text,
         max_length=130,
         min_length=30,
         do_sample=False
     )
+
     return result[0]["summary_text"]
 
 demo = gr.Interface(
@@ -27,5 +31,6 @@ demo = gr.Interface(
 
 demo.launch(
     server_name="0.0.0.0",
-    server_port=int(os.getenv("PORT", 7860))
+    server_port=int(os.getenv("PORT", 7860)),
+    share=False
 )
