@@ -89,7 +89,7 @@ The model will be downloaded automatically during the first execution if it is n
 
 ## Author
 
-**Sateesh Kumar**
+**Sateesh Kumar Patlegar**
 
 Gmail: patlegarsateeshkumar@gmail.com  
 LinkedIn: https://www.linkedin.com/in/patlegar-sateesh-kumar-868870258/  
