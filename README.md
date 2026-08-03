@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Text Summarization using DistilBART
 
 ## Overview
@@ -176,4 +176,4 @@ LinkedIn: https://www.linkedin.com/in/patlegar-sateesh-kumar-868870258/
 GitHub: https://github.com/Sateeshkumar4425
 
 Open to Data Science, Analytics, Machine Learning, and Quantitative Research opportunities.
->>>>>>> 7d776450fcd713b4df7e26ee28e7820f418a51ba
+
