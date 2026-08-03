@@ -2,8 +2,6 @@
 import gradio as gr
 from transformers import pipeline
 
-
-
 text_summary = pipeline(
     "summarization",
     model=model_path,
