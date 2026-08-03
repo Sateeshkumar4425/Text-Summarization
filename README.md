@@ -92,5 +92,7 @@ The model will be downloaded automatically during the first execution if it is n
 **Sateesh Kumar**
 
 Gmail: patlegarsateeshkumar@gmail.com 
+
 GitHub: https://github.com/Sateeshkumar4425
+
 Open to Data Science, Analytics, Machine Learning, and Quantitative Research opportunities.
