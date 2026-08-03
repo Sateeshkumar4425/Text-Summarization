@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-
-import torch
-import gradio as gr
-from transformers import pipeline
-
-# use of pipeline as a high-level helper
-# model_path = "../Models/models--sshleifer--distilbart-cnn-12-6"
-
-=======
 import os
 import gradio as gr
 from transformers import pipeline
 
->>>>>>> 7d776450fcd713b4df7e26ee28e7820f418a51ba
 text_summary = pipeline(
     "summarization",
     model="sshleifer/distilbart-cnn-12-6",
