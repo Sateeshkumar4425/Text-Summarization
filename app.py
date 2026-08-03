@@ -1,4 +1,4 @@
-
+import os
 import gradio as gr
 from transformers import pipeline
 
@@ -27,3 +27,8 @@ demo = gr.Interface(
 )
 
 demo.launch()
+
+demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.getenv("PORT", 7860))
+)
