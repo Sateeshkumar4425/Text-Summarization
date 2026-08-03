@@ -1,30 +1,10 @@
-# import torch
-# import gradio as gr
-# # use of pipeline as a high-level helper
-# from transformers import pipeline
-#
-# model_path = ("../Models/models--sshleifer--distilbart-cnn-12-6")
-# # text_summary = pipeline("summarization",model= model_path,
-# #                         torch_dtype=torch.bfloat16)
-#
-#
-# text_summary = pipeline(
-#     "summarization",
-#     model=model_path,
-#     tokenizer=model_path,
-#     device=-1
-# )
-#
-# text= ('''I am really happy with how my new AI project is coming together.'
-#        ' Learning Python, PyTorch, and Hugging Face has been exciting,'
-#        ' and I am looking forward to building more AI applications.''')
-#
-# print(text_summary(text))
 
+import torch
 import gradio as gr
 from transformers import pipeline
 
-model_path = "../Models/models--sshleifer--distilbart-cnn-12-6"
+# use of pipeline as a high-level helper
+# model_path = "../Models/models--sshleifer--distilbart-cnn-12-6"
 
 text_summary = pipeline(
     "summarization",
