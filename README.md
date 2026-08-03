@@ -63,6 +63,22 @@ This project uses the following Hugging Face model:
 
 The model will be downloaded automatically during the first execution if it is not already available locally.
 
+
+## Application Preview
+
+### Home Screen
+
+![Home Screen](screenshots/home.png)
+
+### Input Example
+
+![Input Example](screenshots/input.png)
+
+### Generated Summary
+
+![Generated Summary](screenshots/output.png)
+
+
 ## Future Improvements
 
 - PDF summarization
@@ -75,4 +91,6 @@ The model will be downloaded automatically during the first execution if it is n
 
 **Sateesh Kumar**
 
+Gmail: patlegarsateeshkumar@gmail.com 
 GitHub: https://github.com/Sateeshkumar4425
+Open to Data Science, Analytics, Machine Learning, and Quantitative Research opportunities.
