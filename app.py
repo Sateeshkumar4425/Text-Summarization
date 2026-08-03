@@ -4,8 +4,7 @@ from transformers import pipeline
 
 text_summary = pipeline(
     "summarization",
-    model=model_path,
-    tokenizer=model_path,
+    model="sshleifer/distilbart-cnn-12-6",
     device=-1
 )
 
@@ -22,11 +21,9 @@ demo = gr.Interface(
     fn=summarize,
     inputs=gr.Textbox(lines=10, label="Input Text"),
     outputs=gr.Textbox(label="Summary"),
-    title="GenAI_Project: Text Summarization using DistilBART",
-    description="This applications helps to summarize text using DistilBART"
+    title="GenAI Project: Text Summarization using DistilBART",
+    description="This application summarizes long text using the DistilBART model from Hugging Face."
 )
-
-demo.launch()
 
 demo.launch(
     server_name="0.0.0.0",
